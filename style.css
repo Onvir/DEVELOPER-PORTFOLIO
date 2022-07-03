@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.span-color{
+    color: violet;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-left:5%;
+}
+.half-img{
+    width: 80%;
+}
+.link-button{
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px 40px;
+    border-radius: 6px;
+    background-image: linear-gradient(45deg,rgb(204, 154, 228) , rgb(156, 11, 223)  );
+    font-weight: 700;
+}
+.half-width p{
+    text-align: left;
+}
+.top{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.mid{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.low{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box-shadow{
+    width: 40%;
+    margin-left:5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+}
+h2{
+    font-size: 40px;
+}
+#full-developer{
+    border-left:10px solid tomato ;
+}
+#novice-developer{
+    border-left: 10px solid blueviolet;
+}
+footer{
+    text-align: center;
+}
